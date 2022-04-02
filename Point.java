@@ -54,7 +54,7 @@ public class Point implements Comparable<Point> {
         // create the input list with points
         List<Point> points = Arrays.asList(new Point(1, 1), new Point(1, 3), new Point(2, 1),
                 new Point(2, 3), new Point(3, 1), new Point(3, 3));
-        
+
         // return the result and display it
         System.out.print(findNumberOfRectangles(points));
     }
